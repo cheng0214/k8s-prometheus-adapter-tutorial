@@ -1,4 +1,4 @@
-# 参考https://github.com/DirectXMan12/k8s-prometheus-adapter/blob/master/docs/walkthrough.md
+# 参考 https://github.com/DirectXMan12/k8s-prometheus-adapter/blob/master/docs/walkthrough.md
 
 项目简介
 ==========================
