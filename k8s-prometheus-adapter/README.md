@@ -1,4 +1,5 @@
 示例部署
+==========================
 
 1. 创建secret对象 里面包括'serving.crt'和'serving.key' 用于服务https流量。[hack/gencerts.sh]可以带来帮助。
 
