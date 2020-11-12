@@ -3,4 +3,5 @@ kind: Alertmanager
 metadata:
   name: example
 spec:
+  externalUrl: http://localhost:9093
   replicas: 1

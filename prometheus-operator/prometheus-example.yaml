@@ -3,15 +3,15 @@ kind: Prometheus
 metadata:
   name: example
 spec:
+  externalUrl: http://localhost:9090
   replicas: 1
   alerting:
     alertmanagers:
     - namespace: default
       name: alertmanager-example
       port: web
-  serviceMonitorSelector:
-    matchLabels:
-      team: frontend
+  serviceMonitorSelector: {}
+  serviceMonitorNamespaceSelector: {}
   ruleSelector:
     matchLabels:
       role: alert-rules
